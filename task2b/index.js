@@ -1,10 +1,12 @@
 function add(numb1, numb2) {
-  let num1 = String(numb1);
-  return num1 + numb2;
+  
+  return numb1 + numb2;
 }
 
 function multiply(num1, operator, num2) {
-  num1, operator, num2;
+  if (operator === '*') {
+    return num1 * num2
+  }
 }
 
 function hasPets(hasPet, firstName, lastName) {
